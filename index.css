@@ -1,0 +1,48 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+  margin: 0;
+}
+
+.header {
+  padding: 8px;
+  text-align: center;
+  background: url("https://media.vandal.net/i/1280x720/1-2018/2018129203258_1.jpg");
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+</style>
